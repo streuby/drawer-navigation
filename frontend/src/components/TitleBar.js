@@ -32,7 +32,7 @@ const TitleBar = (props) => {
             {props.title}
           </Typography>
           <a
-            href="https://github.com/streuby/react-drawer-navigation"
+            href="https://github.com/streuby/react-navigation-components"
             target="_blank"
             rel="noreferrer"
           >

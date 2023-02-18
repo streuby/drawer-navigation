@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function TabNavigation() {
+const TabNavigation = () => {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
@@ -27,6 +27,6 @@ function TabNavigation() {
       </Tabs>
     </div>
   );
-}
+};
 
 export default TabNavigation;
